@@ -140,11 +140,26 @@ body {
 } **/
 
 
+h1{
+    text-align: center;
+}
+h2 {
+    display: inline-block;
+    border: 3px solid #6f6f6f;
+    padding: 5px 20px;
+    margin-top: -13px;
+    margin-bottom: 0;
+    position: relative;
+    left: 300px;
+}
 .row > div {
     background-color: #c7c7c7;
     border: 3px solid #6f6f6f;
     position: relative;
     height: 200px;
-    width: 400px;
-    margin-right: 10px;
+    margin-right: 5px;
+    padding: 10px;
+}
+.row > div:last-child {
+    margin-right: 0;
 }
