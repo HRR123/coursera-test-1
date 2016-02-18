@@ -72,13 +72,9 @@ h2 {
     padding-top: 35px;
     box-sizing: border-box;
     min-width: 300px;
+    overflow: hidden;
 
-
-}
-p {
-    display: inline-block;
-        overflow: auto;
-}
+}        
 
 
 /************* Responsive framework *************/
