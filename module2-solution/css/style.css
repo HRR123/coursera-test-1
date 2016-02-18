@@ -4,6 +4,7 @@
 body {
     font-family: sans-serif;
     margin: 0;
+    font-size: 16px/18px;
 }
 
 
@@ -11,11 +12,15 @@ body {
 
 h1{
     text-align: center;
+    font-size: 175%;
+    margin: 0;
+    margin-top: 15px;
 }
 h2 {
     display: inline-block;
     border: 3px solid black;
     padding: 5px;
+    font-size: 125%;
     width: 150px;
     text-align: center;
     margin-top: -13px;
@@ -47,11 +52,14 @@ h2 {
     padding: 10px;
     padding-top: 35px;
     box-sizing: border-box;
+    min-width: 150px;
+
 
 }
-
-
-
+p {
+    display: inline-block;
+        overflow: auto;
+}
 
 
 /************* Responsive framework *************/
