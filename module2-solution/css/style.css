@@ -14,7 +14,7 @@ h1{
 }
 h2 {
     display: inline-block;
-    border: 3px solid #6f6f6f;
+    border: 3px solid black;
     padding: 5px;
     width: 150px;
     text-align: center;
@@ -23,27 +23,31 @@ h2 {
     position: absolute;
     right: -3px;
     top: 10px;
+    color: #fff;
 }
 .chicken {
     background-color: #ff8c38;
 }
 .beef {
     background-color: #913232;
-    color: #fff;
+
 }
 .sushi {
     background-color: #369818;
 }
-.row > div {
+
+.row div {
     background-color: #c7c7c7;
-    border: 3px solid #6f6f6f;
+    border: 3px solid black;
     position: relative;
-    height: 200px;
-    margin-right: auto;
+    height: 170px;
+    margin-right: 15px;
     margin-left: auto;
-    margin: 10px;
+    margin-bottom: 15px;
     padding: 10px;
     padding-top: 35px;
+    box-sizing: border-box;
+
 }
 
 
@@ -55,6 +59,7 @@ h2 {
     width: 100%;
     margin: 0;
     padding: 15px;
+    
 }
 /************* Desktop Only *************/
 @media (min-width: 992px) {
